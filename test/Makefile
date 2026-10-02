@@ -7,6 +7,10 @@ FST ?= -fst # Use more efficient FST format
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
 PROJECT_SOURCES = project.v
+hvsync_generator.v
+palette.v
+bitmap_rom.v
+bitmap_rom_2.v
 
 ifneq ($(GATES),yes)
 
